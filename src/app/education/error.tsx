@@ -1,3 +1,5 @@
+"use client"
+
 const Error = () => {
     return (
         <div className="container content_center">
