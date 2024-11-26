@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Experience: React.FC = () => {
     return (
@@ -7,7 +8,7 @@ const Experience: React.FC = () => {
                 <span className="project_media_holder">
                     <span className="media_holder_outer_type_img">
                         <span className="media_holder_inner_type_img">
-                            <img src="/data_annotation_tech_logo.png" alt="/data_annotation_tech_logo.png" style={{width: "100%", height: "100%", objectFit: "contain"}}/>
+                            <Image src="/data_annotation_tech_logo.png" alt="/data_annotation_tech_logo.png" style={{width: "100%", height: "100%", objectFit: "contain"}} width={500} height={500}/>
                         </span>
                     </span>
                 </span>

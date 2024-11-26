@@ -1,19 +1,20 @@
 import React from "react";
+import Image from "next/image";
 
 const Tool_Display: React.FC = () => {
     return (
         <div className="scroll-container">
             <div className="carousel-primary">
-            <img src="/python_logo.png" alt="cat1" />
-            <img src="/javascript_logo.png" alt="cat2" />
-            <img src="/react_logo.png" alt="cat3" />
-            <img src="/css_logo.png" alt="cat4" />
+            <Image src="/python_logo.png" alt="python_logo.png" width={100} height={100}/>
+            <Image src="/javascript_logo.png" alt="javascript_logo.png" width={100} height={100}/>
+            <Image src="/react_logo.png" alt="react_logo.png" width={100} height={100}/>
+            <Image src="/css_logo.png" alt="css_logo.png" width={100} height={100}/>
             </div>
             <div className="carousel-primary carousel-secondary">
-            <img src="/nodejs_logo.png" alt="cat5" />
-            <img src="/mysql_logo.png" alt="cat6" />
-            <img src="/ai_logo.png" alt="cat7" />
-            <img src="/cybersec_logo.png" alt="cat8" />
+            <Image src="/nodejs_logo.png" alt="nodejs_logo.png" width={100} height={100}/>
+            <Image src="/mysql_logo.png" alt="mysql_logo.png" width={100} height={100}/>
+            <Image src="/ai_logo.png" alt="ai_logo.png" width={100} height={100}/>
+            <Image src="/cybersec_logo.png" alt="cybersec_logo.png" width={100} height={100}/>
             </div>
         </div>
     );

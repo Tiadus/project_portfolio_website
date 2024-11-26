@@ -14,7 +14,7 @@ const Nav_Bar: React.FC = () => {
 
     useEffect(() => {
         const url = `${pathname}`
-        let directory: string[] = url.split('/')
+        const directory: string[] = url.split('/')
 
         if (directory[1] != "") {
             set_active(directory[1])
@@ -26,7 +26,7 @@ const Nav_Bar: React.FC = () => {
     }, [pathname, searchParams])
 
     useEffect(() => {
-        /*switch (active) {
+        switch (active) {
             case "/":
                 document.body.style.background = 'linear-gradient(45deg, #1A2980, #26D0CE)';
                 break;
@@ -36,7 +36,7 @@ const Nav_Bar: React.FC = () => {
             case "education":
                 document.body.style.background = 'linear-gradient(45deg, #FF5F6D, #7BB2D9)';
                 break;
-        }*/
+        }
     }, [active])
 
     const on_button_click = (button_name: string) => {
@@ -51,9 +51,9 @@ const Nav_Bar: React.FC = () => {
 
     return (
         <nav className="content_center">
-            <Nav_Bar_Button button_name="/" destination="" focused_tab={active} on_click={on_button_click}/>
-            <Nav_Bar_Button button_name="experience" destination="" focused_tab={active} on_click={on_button_click}/>
-            <Nav_Bar_Button button_name="education" destination="" focused_tab={active} on_click={on_button_click}/>
+            <Nav_Bar_Button button_name="/" focused_tab={active} on_click={on_button_click}/>
+            <Nav_Bar_Button button_name="experience" focused_tab={active} on_click={on_button_click}/>
+            <Nav_Bar_Button button_name="education" focused_tab={active} on_click={on_button_click}/>
         </nav>
     );
 }

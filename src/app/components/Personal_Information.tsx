@@ -14,15 +14,15 @@ const Personal_Information: React.FC = () => {
                         <div>Current Location: Hanoi</div>
                         <div id="network_holder">
                             <Link href={"https://www.linkedin.com/in/viet-thai-nguyen-606160299/"} target="_blank" rel="noopener noreferrer">
-                                <img className="responsive_network_icon" src="/linkedin_logo.png" alt="LinkedIn Profile"/>
+                                <Image className="responsive_network_icon" src="/linkedin_logo.png" alt="LinkedIn Profile" width={50} height={50}/>
                             </Link>
                             <Link href={"https://github.com/Tiadus?tab=repositories"} target="_blank" rel="noopener noreferrer">
-                                <img className="responsive_network_icon" src="/github_logo.png" alt="GitHub Profile"/>
+                                <Image className="responsive_network_icon" src="/github_logo.png" alt="GitHub Profile" width={50} height={50}/>
                             </Link>
                         </div>
                     </span>
                     <span style={{display: "flex", flexGrow: "1", alignItems: "center", justifyContent: "center"}}>
-                        <img className="hide_in_mobile" src="/star.png" style={{width: "90px", height: "90px"}}/>
+                        <Image className="hide_in_mobile" src="/star.png" alt="star.png" style={{width: "90px", height: "90px"}} width={90} height={90}/>
                     </span>
                 </div>
             </span>
