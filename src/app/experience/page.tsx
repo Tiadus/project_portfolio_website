@@ -20,7 +20,7 @@ const Experience: React.FC = () => {
                     <div className="custom_text_1"><b>Roles:</b></div>
                     <ul className="project_description_list">
                         <li className="custom_text_2">
-                            Artificial Intelligence Models Responses Tester and Reviewer: Write custom prompt to test and evaluate the models' capabilities 
+                            Artificial Intelligence Models Responses Tester and Reviewer: Write custom prompt to test and evaluate the models&apos; capabilities 
                             in responding to the user query in normal and coding context with languages such as Python and Javascript.
                         </li>
                     </ul>
