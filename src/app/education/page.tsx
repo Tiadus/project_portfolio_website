@@ -8,7 +8,7 @@ const Education: React.FC = () => {
                 <span className="project_media_holder">
                     <span className="media_holder_outer_type_video">
                         <span className="media_holder_inner_type_video">
-                            <Image src="/dean_award.jpg" alt="/dean_award.jpg" style={{width: "100%", height: "100%", objectFit: "cover"}} width={500} height={500}/>
+                            <Image src="/dean_award.jpg" alt="/dean_award.jpg" style={{width: "100%", height: "100%", objectFit: "contain"}} width={500} height={500}/>
                         </span>
                     </span>
                 </span>
