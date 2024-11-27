@@ -181,12 +181,12 @@ nav {
 .carousel-primary {
   display: flex;
   justify-content: space-around;
-  animation: scroll-horizontal 20s linear infinite;
+  animation: scroll-horizontal 10s linear infinite;
 }
 
 .carousel-secondary {
-  animation: scroll-horizontal 20s linear infinite;
-  animation-delay: 10s;
+  animation: scroll-horizontal 10s linear infinite;
+  animation-delay: 5s;
 }
 
 @keyframes scroll-horizontal {
