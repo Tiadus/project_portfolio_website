@@ -13,8 +13,8 @@ const Tool_Display: React.FC = () => {
             <div className="carousel-primary carousel-secondary">
             <Image src="/nodejs_logo.png" alt="nodejs_logo.png" width={100} height={100}/>
             <Image src="/mysql_logo.png" alt="mysql_logo.png" width={100} height={100}/>
-            <Image src="/ai_logo.png" alt="ai_logo.png" width={100} height={100}/>
-            <Image src="/cybersec_logo.png" alt="cybersec_logo.png" width={100} height={100}/>
+            <Image src="/ts.png" alt="ts.png" width={100} height={100}/>
+            <Image src="/nestjs.png" alt="nestjs.png" width={100} height={100} style={{backgroundColor: 'white'}}/>
             </div>
         </div>
     );
