@@ -20,7 +20,7 @@ const Experience: React.FC = () => {
                     <div className="custom_text_1">Tech Stack: [NextJS – Typescript, NestJS – Typescript, MySQL – SQL]</div>
                     <div className="custom_text_1">
                         <b>Description:</b> Meowu Gacha is an web application that can simulate the gacha systems of multiple games in a single application. 
-                        The application was designed and made to help gacha games' player understand more about the probability of winning in their games.
+                        The application was designed and made to help gacha games&apos; player understand more about the probability of winning in their games.
                     </div>
                     <div className="custom_text_1">
                         <b>Github: </b> 
@@ -31,7 +31,7 @@ const Experience: React.FC = () => {
                     <div className="custom_text_1"><b>Roles:</b></div>
                     <ul className="project_description_list">
                         <li className="custom_text_2">
-                            Full Stack Developer: Design and implement a database schema and a system that can simulate multiple gacha games’ systems 
+                            Full Stack Developer: Design and implement a database schema and a system that can simulate multiple gacha games&apos; systems 
                             in a single application as well as a responsive user interface to present the product on both desktop and mobile phone.
                         </li>
                     </ul>
@@ -53,7 +53,7 @@ const Experience: React.FC = () => {
                     <ul className="project_description_list">
                         <li className="custom_text_2">
                             AI Trainer (Freelancer):
-                            Analyze and refine AI models’ Python and Javascript code to match the desired result of other trainers’ prompts and criteria. 
+                            Analyze and refine AI models&apos; Python and Javascript code to match the desired result of other trainers&apos; prompts and criteria. 
                             Design and curate complex prompts to expose failure modes in AI models in programming tasks, as well as natural language conversations.
                         </li>
                     </ul>
