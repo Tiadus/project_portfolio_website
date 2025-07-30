@@ -103,6 +103,7 @@ nav {
   gap: 5%;
   overflow-x: hidden;
   overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 #personal_information {

@@ -30,10 +30,13 @@ const Experience: React.FC = () => {
                     </div>
                     <div className="custom_text_1"><b>Roles:</b></div>
                     <ul className="project_description_list">
-                        <li className="custom_text_2">
-                            Full Stack Developer: Design and implement a database schema and a system that can simulate multiple gacha games&apos; systems 
-                            in a single application as well as a responsive user interface to present the product on both desktop and mobile phone.
-                        </li>
+                        <li className="custom_text_2">Full Stack Developer</li>
+                        <ul>
+                            <li className="custom_text_2">
+                                Design and implement a database schema and a system that can simulate multiple gacha games&apos; systems 
+                                in a single application as well as a responsive user interface to present the product on both desktop and mobile phone.
+                            </li>
+                        </ul>
                     </ul>
                 </span>
             </div>
@@ -47,15 +50,19 @@ const Experience: React.FC = () => {
                 </span>
                 <span className="project_description_holder">
                     <div className="custom_header_1">Data Annotation Tech (AI Training Company)</div>
-                    <div className="custom_text_1"><b>Duration:</b> April 2024 - Now</div>
+                    <div className="custom_text_1"><b>Duration:</b> April 2024 - Present</div>
                     <div className="custom_text_1"><b>Location:</b> Remote</div>
                     <div className="custom_text_1"><b>Roles:</b></div>
                     <ul className="project_description_list">
-                        <li className="custom_text_2">
-                            AI Trainer (Freelancer):
-                            Analyze and refine AI models&apos; Python and Javascript code to match the desired result of other trainers&apos; prompts and criteria. 
-                            Design and curate complex prompts to expose failure modes in AI models in programming tasks, as well as natural language conversations.
-                        </li>
+                        <li className="custom_text_2">AI Trainer (Freelancer)</li>
+                        <ul>
+                            <li className="custom_text_2">
+                                Analyze and refine AI models&apos; Python and Javascript code to match the desired result of other trainers&apos; prompts and criteria. 
+                            </li>
+                            <li className="custom_text_2">
+                                Design and curate complex prompts to expose failure modes in AI models in programming tasks, as well as natural language conversations.                 
+                            </li>
+                        </ul>
                     </ul>
                 </span>
             </div>
@@ -91,15 +98,18 @@ const Experience: React.FC = () => {
                     </div>
                     <div className="custom_text_1"><b>Roles:</b></div>
                     <ul className="project_description_list">
-                        <li className="custom_text_2">
-                            Backend Engineer: Develop a backend system capable of integrating a machine learning model to carry 
-                            out deepfake analysis in real time call with Python, Javascript, NodeJS and WebSocket. 
-                        </li>
-                        <li className="custom_text_2">
-                            Frontend Engineer: Design and implement a reactive and user-friendly frontend of the mobile application 
-                            for the calling, deepfake audio file detection and account management functionalities with Javascript, 
-                            React Native and NativeWind.  
-                        </li>
+                        <li className="custom_text_2">Full Stack Developer</li>
+                        <ul>
+                            <li className="custom_text_2">
+                                Develop a backend system capable of integrating a machine learning model to carry 
+                                out deepfake analysis in real time call with Python, Javascript, NodeJS and WebSocket. 
+                            </li>
+                            <li className="custom_text_2">
+                                Design and implement a reactive and user-friendly frontend of the mobile application 
+                                for the calling, deepfake audio file detection and account management functionalities with Javascript, 
+                                React Native and NativeWind.  
+                            </li>
+                        </ul>
                         <li className="custom_text_2">
                             Team Leader: Oversee and lead a team of six members from Vietnam and Egypt including assigning tasks, 
                             hosting meeting, working in collaboration with two doctorate supervisors from Vietnam and China.
