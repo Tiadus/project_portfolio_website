@@ -1,9 +1,42 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Experience: React.FC = () => {
     return (
         <div className="container">
+            <div className="project_holder">
+                <span className="project_media_holder">
+                    <span className="media_holder_outer_type_img">
+                        <span className="media_holder_inner_type_img">
+                            <Image src="/meowu_gacha.jpg" alt="/meowu_gacha.jpg" style={{width: "100%", height: "100%", objectFit: "contain"}} width={500} height={500}/>
+                        </span>
+                    </span>
+                </span>
+                <span className="project_description_holder">
+                    <div className="custom_header_1">
+                        Meowu Gacha (Gacha Simulator - <Link href="https://meowu-gacha-web.vercel.app/" target="_blank" rel="noopener noreferrer">Website</Link>)
+                    </div>
+                    <div className="custom_text_1">Tech Stack: [NextJS – Typescript, NestJS – Typescript, MySQL – SQL]</div>
+                    <div className="custom_text_1">
+                        <b>Description:</b> Meowu Gacha is an web application that can simulate the gacha systems of multiple games in a single application. 
+                        The application was designed and made to help gacha games' player understand more about the probability of winning in their games.
+                    </div>
+                    <div className="custom_text_1">
+                        <b>Github: </b> 
+                        <Link href="https://github.com/Tiadus/meowu_gacha" target="_blank" rel="noopener noreferrer">
+                            Repository Link
+                        </Link>
+                    </div>
+                    <div className="custom_text_1"><b>Roles:</b></div>
+                    <ul className="project_description_list">
+                        <li className="custom_text_2">
+                            Full Stack Developer: Design and implement a database schema and a system that can simulate multiple gacha games’ systems 
+                            in a single application as well as a responsive user interface to present the product on both desktop and mobile phone.
+                        </li>
+                    </ul>
+                </span>
+            </div>
             <div className="project_holder">
                 <span className="project_media_holder">
                     <span className="media_holder_outer_type_img">
@@ -13,15 +46,15 @@ const Experience: React.FC = () => {
                     </span>
                 </span>
                 <span className="project_description_holder">
-                    <div className="custom_header_1">Data Annotation Tech</div>
-                    <div className="custom_header_2">Freelance & Casual Work</div>
+                    <div className="custom_header_1">Data Annotation Tech (AI Training Company)</div>
                     <div className="custom_text_1"><b>Duration:</b> April 2024 - Now</div>
-                    <div className="custom_text_1"><b>Location:</b> Remote (United State of America)</div>
+                    <div className="custom_text_1"><b>Location:</b> Remote</div>
                     <div className="custom_text_1"><b>Roles:</b></div>
                     <ul className="project_description_list">
                         <li className="custom_text_2">
-                            Artificial Intelligence Models Responses Tester and Reviewer: Write custom prompt to test and evaluate the models&apos; capabilities 
-                            in responding to the user query in normal and coding context with languages such as Python and Javascript.
+                            AI Trainer (Freelancer):
+                            Analyze and refine AI models’ Python and Javascript code to match the desired result of other trainers’ prompts and criteria. 
+                            Design and curate complex prompts to expose failure modes in AI models in programming tasks, as well as natural language conversations.
                         </li>
                     </ul>
                 </span>
@@ -42,13 +75,19 @@ const Experience: React.FC = () => {
                     </span>
                 </span>
                 <span className="project_description_holder">
-                    <div className="custom_header_1">Deepfake Warning Application (Capstone Project)</div>
-                    <div className="custom_header_2">Software Engineer</div>
+                    <div className="custom_header_1">Deepfake Warning Application (Graduation Project)</div>
+                    <div className="custom_text_1"><b>Tech Stack:</b> [React Native – Javascript, NodeJS+Express – Javascript, MySQL - SQL]</div>
                     <div className="custom_text_1"><b>Duration:</b> March 2024 - October 2024</div>
                     <div className="custom_text_1"><b>Location:</b> University of Wollongong (Australia)</div>
                     <div className="custom_text_1">
-                        <b>Description:</b> Deepfake Warning Application is a university capstone project which aim to design 
-                        and implement a proof of concept of an architecture to detect deepfake in real time audio call.
+                        <b>Description:</b> Deepfake Warning Application is a university capstone project, with a goal of designing 
+                        and implementing an architecture to detect deepfake in real time audio call.
+                    </div>
+                    <div className="custom_text_1">
+                        <b>Github: </b> 
+                        <Link href="https://github.com/Tiadus/academy_csit321_deepfake_warning_integrated_audio_call_application" target="_blank" rel="noopener noreferrer">
+                            Repository Link
+                        </Link>
                     </div>
                     <div className="custom_text_1"><b>Roles:</b></div>
                     <ul className="project_description_list">
@@ -60,10 +99,6 @@ const Experience: React.FC = () => {
                             Frontend Engineer: Design and implement a reactive and user-friendly frontend of the mobile application 
                             for the calling, deepfake audio file detection and account management functionalities with Javascript, 
                             React Native and NativeWind.  
-                        </li>
-                        <li className="custom_text_2">
-                            Data Analyzer: Design and establish a testing system that simulates a real-time calling environment, 
-                            enabling data scientists to collect data for training the machine learning model. 
                         </li>
                         <li className="custom_text_2">
                             Team Leader: Oversee and lead a team of six members from Vietnam and Egypt including assigning tasks, 
